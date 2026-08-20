@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What I work on — Islam Sherif</title>
+<meta name="description" content="Six areas: strategy and execution, organisation design, talent and workforce planning, governance and risk, government compliance and affairs, transactions and readiness.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What I work on — Islam Sherif">
+<meta property="og:description" content="Six areas: strategy and execution, organisation design, talent and workforce planning, governance and risk, government compliance and affairs, transactions and readiness.">
+<meta property="og:image" content="https://islam-sherif.github.io/og-image.png">
+<meta property="og:url" content="https://islam-sherif.github.io/work.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23191B1D'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Inter,Arial,sans-serif' font-weight='700' font-size='34' fill='%23EBEBEB'%3EIS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Enterprise Advisory design system — shared tokens.
+   Inlined into each page at build; kept here as the single source of truth. */
+:root{
+  --ink:#191B1D;
+  --muted:rgba(25,27,29,0.6);
+  --ground:#EBEBEB;
+  --panel:#F1F1F1;
+  --rule:rgba(25,27,29,0.14);
+  --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:var(--font);font-size:14px;font-weight:400;line-height:1.1;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+.shell{max-width:1200px;margin:0 auto;padding:0 40px;}
+.indent{margin-left:24.5%;max-width:705px;}
+a{color:inherit;}
+
+/* nav */
+.nav{padding:40px 0 0;display:flex;justify-content:space-between;align-items:baseline;gap:20px;}
+.nav .name{font-size:15px;font-weight:600;letter-spacing:-0.02em;text-decoration:none;color:var(--ink);}
+.nav .links{display:flex;gap:26px;}
+.nav .links a{font-size:15px;font-weight:500;letter-spacing:-0.01em;text-decoration:none;color:var(--muted);}
+.nav .links a:hover,.nav .links a[aria-current="page"]{color:var(--ink);}
+
+/* type */
+h1{font-size:clamp(52px,9.2vw,110px);font-weight:700;line-height:1.18;letter-spacing:-0.06em;margin:0;}
+h2{font-size:clamp(30px,5vw,50px);font-weight:700;line-height:1.16;letter-spacing:-0.045em;margin:0 0 30px;}
+.label{font-size:14px;font-weight:500;letter-spacing:-0.01em;color:var(--muted);display:block;margin-bottom:16px;}
+.prose{font-size:clamp(19px,2.3vw,24px);font-weight:700;line-height:1.46;letter-spacing:-0.05em;margin:0 0 30px;}
+.prose.dim{color:var(--muted);}
+.body{font-size:19.5px;font-weight:400;line-height:1.78;letter-spacing:-0.005em;margin:0 0 26px;color:var(--ink);}
+.body.dim{color:var(--muted);}
+.area{padding:0 0 44px;}
+.area:last-child{padding-bottom:0;}
+.area-num{font-size:14px;font-weight:500;color:var(--muted);margin:0 0 10px;letter-spacing:-0.01em;}
+.area-title{font-size:clamp(22px,2.6vw,28px);font-weight:700;letter-spacing:-0.045em;margin:0 0 12px;line-height:1.2;}
+.area-line{font-size:18px;font-weight:400;line-height:1.72;color:var(--muted);margin:0;}
+.entry{padding:0 0 40px;}
+.entry:last-child{padding-bottom:0;}
+.entry h3{font-size:clamp(21px,2.5vw,26px);font-weight:700;letter-spacing:-0.04em;line-height:1.22;margin:0 0 12px;}
+.entry p{font-size:18.5px;font-weight:400;line-height:1.74;color:var(--muted);margin:0;}
+.detail{list-style:none;padding:0;margin:0;font-size:18px;font-weight:400;line-height:1.94;letter-spacing:normal;color:var(--muted);}
+.detail-head{font-size:14px;font-weight:500;color:var(--muted);letter-spacing:-0.01em;margin:0 0 10px;}
+
+/* blocks */
+.hero{padding:120px 0 88px;}
+.hero h1{margin-left:11%;}
+.lede{padding-bottom:96px;border-bottom:1px solid var(--rule);}
+section.block{padding:80px 0;border-bottom:1px solid var(--rule);}
+.head-row{margin-left:11%;margin-bottom:40px;}
+.tail{padding:80px 0 104px;}
+.tail .indent{max-width:705px;}
+.tail .next{font-size:clamp(24px,3.4vw,34px);font-weight:700;letter-spacing:-0.045em;text-decoration:none;display:inline-block;margin-top:8px;}
+.tail .next:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:7px;}
+.foot{padding:0 0 88px;font-size:14px;color:var(--muted);}
+.foot .indent{max-width:none;}
+
+@media (max-width:900px){
+  .shell{padding:0 26px;}
+  .indent{margin-left:0;max-width:none;}
+  .hero{padding:80px 0 60px;}
+  .hero h1,.head-row{margin-left:0;}
+  .lede{padding-bottom:64px;}
+  section.block{padding:60px 0;}
+  .tail{padding:60px 0 76px;}
+  .detail{font-size:17px;line-height:1.85;}
+  .body{font-size:18px;line-height:1.72;}
+  .nav{padding:30px 0 0;}
+  .nav .links{gap:18px;}
+}
+</style>
+</head>
+<body>
+<div class="shell nav">
+  <a class="name" href="/">Islam Sherif</a>
+  <div class="links">
+    <a href="/experience.html">Experience</a>
+    <a href="/work.html" aria-current="page">What I work on</a>
+  </div>
+</div>
+
+<div class="hero"><div class="shell"><h1>What I work on.</h1></div></div>
+
+<div class="lede"><div class="shell"><div class="indent">
+<p class="prose">Six areas of work. Most companies need two of them, and the difficulty is usually knowing which two.</p>
+<p class="body">The through-line is the same throughout: intent has to survive contact with the organisation. Structure, ownership, decision rights and cadence are the mechanisms that let it survive &mdash; and when a strategy fails it is nearly always one of those four that was never built. What follows is what I can help with, and how I think about each.</p>
+</div></div></div>
+
+<section class="block"><div class="shell">
+<div class="head-row"><span class="label">01</span><h2>Strategy and execution.</h2></div>
+<div class="indent">
+<p class="prose">The gap between a strategy and its delivery is almost never ambition or talent. It is that the strategy was never decomposed &mdash; and a paragraph reading &ldquo;expand into adjacent verticals&rdquo; is a heading, not a plan.</p>
+<p class="body">A paragraph of strategy carries three things: an intent, a constraint and a sequence. Decomposition either preserves all three or it quietly kills the strategy while looking like delivery. Intent goes first, because a task list can be executed perfectly and still miss the point. Sequence gets negotiated away as teams reorder work to fit their own capacity &mdash; some of that is sensible, some of it inverts the plan and nobody notices for a quarter. Constraint is what leadership forgets it set: &ldquo;without adding headcount&rdquo; is one clause in the paragraph and a wall in the plan.</p>
+<p class="body">The second failure is the opposite of the first. The plan exists, and it is quietly wrong, because the environment moved and nobody retired the assumption underneath it.</p>
+<p class="detail-head">What the work involves</p>
+<ul class="detail">
+  <li>&mdash; Work breakdown traceable to each clause of the strategy</li>
+  <li>&mdash; Sequencing against real dependencies rather than team preference</li>
+  <li>&mdash; Ownership at the level of a single name, never a department</li>
+  <li>&mdash; The operating cadence: which forum, what agenda, what gets reported</li>
+  <li>&mdash; Re-planning as a routine operation rather than a crisis</li>
+  <li>&mdash; Programme discipline where several workstreams have to land together</li>
+</ul>
+</div></div></section>
+
+<section class="block"><div class="shell">
+<div class="head-row"><span class="label">02</span><h2>Organisation design.</h2></div>
+<div class="indent">
+<p class="prose">An org chart is a capital allocation decision. Every box on it is a multi-year cash commitment to a bet about where value gets created &mdash; and most companies never write down what that return was supposed to be.</p>
+<p class="body">I came to this from credit, and the habit stuck: read an organisation the way a bank reads a borrower, trajectory before symptom and never one number in isolation. Applied to structure, that means asking what the business case actually requires before asking who feels overloaded. Overload is a symptom, and very often a symptom of poor sequencing rather than of missing people.</p>
+<p class="body">The uncomfortable half of the work is subtraction. Sometimes the right answer is that a layer should come out, or that a function should not exist yet. Companies find it easy to justify a hire and nearly impossible to justify a removal, which is how a structure nobody designed gets inherited by everybody.</p>
+<p class="detail-head">What the work involves</p>
+<ul class="detail">
+  <li>&mdash; Structure drawn against the business case rather than the last reorganisation</li>
+  <li>&mdash; Role design and charters written at the level of a named accountability</li>
+  <li>&mdash; Where the next hire compounds, and where a layer should be removed</li>
+  <li>&mdash; The second manager layer: decision rights by level, and what escalates to whom</li>
+  <li>&mdash; Spans and layers that let a founder stop being the operating system</li>
+  <li>&mdash; Attrition read as an asset-quality signal rather than an HR metric</li>
+</ul>
+</div></div></section>
+
+<section class="block"><div class="shell">
+<div class="head-row"><span class="label">03</span><h2>Talent and workforce planning.</h2></div>
+<div class="indent">
+<p class="prose">A company that hires reactively is always paying a premium and always waiting. Hiring against the plan costs less, arrives sooner, and is the difference between growth that holds and growth that wobbles.</p>
+<p class="body">Reactive hiring is expensive in ways that never appear as a line item. The premium paid for speed, the months a critical seat sits empty, the senior candidate lost because the process took five weeks to reach a decision nobody owned. Underneath all of it is the same absence: no workforce plan derived from the business case, so every hire is argued from scratch and the loudest department wins.</p>
+<p class="body">The other half is what happens after the offer. A promotion has to mean the same thing in two different rooms, or calibration collapses and your best operators start leaving for reasons the exit interview never captures. And the roles that cannot be allowed to fall vacant need named successors before they fall vacant &mdash; which is a planning exercise, not a loyalty question.</p>
+<p class="detail-head">What the work involves</p>
+<ul class="detail">
+  <li>&mdash; Workforce plan built from the business case, not last year&rsquo;s headcount plus a percentage</li>
+  <li>&mdash; Pipelines for the roles the business cannot operate without</li>
+  <li>&mdash; Succession named in advance for single points of failure</li>
+  <li>&mdash; Hiring architecture: scorecards, structured interviewing, decision rights on offers</li>
+  <li>&mdash; Performance calibration across departments, so a rating means one thing</li>
+  <li>&mdash; Promotion standards that travel, and a track that pays operators to remain operators</li>
+</ul>
+</div></div></section>
+
+<section class="block"><div class="shell">
+<div class="head-row"><span class="label">04</span><h2>Governance and risk.</h2></div>
+<div class="indent">
+<p class="prose">Ask a leadership team where a decision was made and you will often get a story about a corridor conversation. That is workable at twenty people. At two hundred it means nobody can reconstruct why anything was decided.</p>
+<p class="body">The same argument then gets re-litigated every quarter by people who were not in the corridor. Governance is an unfairly dull word for the fix, because the fix is mostly about speed: decision rights, escalation paths, and a forum where cross-functional calls are made in front of the people who have to live with them. I convene executive sessions for that reason &mdash; not to inform people, but to move ownership into a room where it can be witnessed.</p>
+<p class="body">The same framework carries crisis. A protocol written under pressure is worthless. Written in advance, naming who speaks, who decides and what the thresholds are, it is the difference between a difficult week and a reputational event.</p>
+<p class="detail-head">What the work involves</p>
+<ul class="detail">
+  <li>&mdash; Decision rights and escalation paths, written and owned</li>
+  <li>&mdash; Board and committee structure, and the papers that actually go to them</li>
+  <li>&mdash; Executive forums designed so decisions are made and witnessed</li>
+  <li>&mdash; Crisis protocol: who speaks, who decides, what the thresholds are</li>
+  <li>&mdash; A risk framework proportionate to the company&rsquo;s real exposure</li>
+  <li>&mdash; Institutional memory that survives turnover on either side</li>
+</ul>
+</div></div></section>
+
+<section class="block"><div class="shell">
+<div class="head-row"><span class="label">05</span><h2>Government compliance and affairs.</h2></div>
+<div class="indent">
+<p class="prose">A business can have a sound strategy and real revenue and still turn both into a loss, because nobody mapped the compliance it was already subject to.</p>
+<p class="body">The obligations do not wait to be noticed. Registrations, licences, filings and approvals carry deadlines whether or not anyone is tracking them, and the cost of missing them arrives late and compounds: penalties, back-payments, and the delay of a permission that should have been secured a year earlier. In the worst cases the exposure attaches to the owner personally rather than to the company. Almost none of this is difficult. It is simply unowned &mdash; sitting between finance, legal and operations, in the space where each assumes the other is handling it.</p>
+<p class="body">Government affairs is the other side of the same coin. Meeting an obligation is one thing; how quickly anything actually clears is another, and that is decided by relationships. Treated as networking, those relationships belong to whoever happens to hold them and leave when that person does. Treated as an operating discipline &mdash; mapped counterparts, a system for follow-through, institutional memory &mdash; they become an asset of the company. The objective is that a business is continuously legible to the bodies that regulate it, rather than urgently legible whenever there is a problem.</p>
+<p class="detail-head">What the work involves</p>
+<ul class="detail">
+  <li>&mdash; A compliance map: what the company owes, to whom, and on what date</li>
+  <li>&mdash; Ownership assigned so every obligation sits with a person, not a department</li>
+  <li>&mdash; A calendar of registrations, licences, filings and renewals</li>
+  <li>&mdash; Remediation sequenced where obligations have already been missed</li>
+  <li>&mdash; Counterpart mapping across the bodies that matter, with coverage that survives turnover</li>
+  <li>&mdash; Follow-through systems, so a relationship belongs to the company rather than to an individual</li>
+</ul>
+</div></div></section>
+
+<section class="block"><div class="shell">
+<div class="head-row"><span class="label">06</span><h2>Transactions and readiness.</h2></div>
+<div class="indent">
+<p class="prose">Assets are rarely the problem. What needs building is the company around the asset &mdash; governance a stranger can inspect, numbers on a schedule, and decisions that do not wait for one particular person to return.</p>
+<p class="body">A private company can postpone that work almost indefinitely. A transaction prices it, line by line, in the discount an investor applies to a company it cannot read. Diligence is simply the second build being examined by someone with no incentive to be generous about it: who decides what, what happens when they are away, whether the reporting would survive a board that asks a second question.</p>
+<p class="body">The work divides cleanly. Before signing, it is finding the gaps and closing them in the order the timetable allows. After closing, it is the organisation the combined entity actually needs &mdash; which is rarely the two previous structures placed side by side.</p>
+<p class="detail-head">What the work involves</p>
+<ul class="detail">
+  <li>&mdash; Readiness assessed against what an investor, bank or regulator actually diligences</li>
+  <li>&mdash; Gap closure sequenced against the transaction timetable</li>
+  <li>&mdash; Governance and decision rights built to survive inspection</li>
+  <li>&mdash; Reporting cadence and board-ready management information</li>
+  <li>&mdash; Organisational design for the entity as it will exist after close</li>
+  <li>&mdash; Post-close integration: structure, ownership and the first hundred days</li>
+</ul>
+</div></div></section>
+
+<section class="block"><div class="shell">
+<div class="head-row"><h2>Contact.</h2></div>
+<div class="indent">
+<p class="body">If you are working on any of this, I am glad to talk it through.</p>
+<div class="entry"><h3>Islam Sherif</h3>
+<p><a href="mailto:isherif772@gmail.com">isherif772@gmail.com</a><br>
+<a href="https://wa.me/201009571292">+20 10 0957 1292</a><br>
+Cairo, Egypt</p></div>
+</div></div></section>
+
+<div class="foot" style="padding-top:64px;"><div class="shell"><div class="indent">Cairo &middot; MENA</div></div></div>
+</body></html>
